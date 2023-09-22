@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    position: sticky;
+
+
+
+}
+
+.logo img {
+    width: 50%;
+    height: 50%;
+    color: black;
+    border: 2px solid white;
+    border-radius: 100em;
+    display: block;
+    margin: auto;
+}
+
+
+.navul li {
+    list-style: none;
+    padding: 10px;
+    padding: 18px 21px;
+    width: 25%;
+
+}
+
+.navul li a:hover {
+    color: gray;
+}
+
+.navul li a {
+    text-decoration: none;
+    color: beige;
+}
+
+
+.navul {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 70%;
+}
+
+
+.rightpannel {
+
+    text-align: right;
+    width: 30%;
+    padding: 0 8px;
+
+
+}
+
+.logo {
+
+
+    align-items: center;
+
+    justify-content: center;
+    width: 30%;
+}
+
+#search {
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    background: none;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.8) url(bacground.jpeg);
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.boxmain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height: 70%;
+    max-width: 60%;
+    margin: auto;
+}
+
+.firstsection {
+    height: 100vh;
+}
+
+.secondhalf {
+    width: 90%;
+
+
+}
+
+.secondhalf img {
+    width: 69%;
+    height: 60%;
+    border: 3px solid black;
+    border-radius: 60px;
+    display: block;
+    margin: auto;
+}
+
+.firshalf {
+    width: 80%;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textbig {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.textsmall {
+    font-size: 15px;
+    margin: 10px 0;
+
+}
+
+.btn {
+    margin: 8px 8px;
+    padding: 5px 8px;
+    font-size: 14px;
+    border: 2px solid white;
+    border-radius: 11px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm {
+    vertical-align: middle;
+    padding: 4px 15px;
+
+}
+
+.section {
+
+    display: flex;
+    align-items: center;
+    max-width: 85%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 67px 0 0 0;
+}
+
+.img1 {
+    width: 260px;
+    height: 180px;
+}
+
+.paras {
+    padding: 10px 60px;
+    line-height: 22px;
+}
+
+.secleft {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    max-width: 85%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 50px 0;
+
+}
+
+.thumbnail img {
+    width: 246px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 25px 9px 0 0;
+}
+
+.sectiontag {
+    padding: 11px 10px;
+}
+
+.sectionlast {
+    padding: 52px 0 0 0;
+
+}
+
+.contact {
+    background-color: hsla(0, 21%, 92%, 0.384);
+    height: 62vh;
+
+}
+
+.text-middle {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.form {
+    max-width: 300px;
+    margin: 15px auto;
+
+}
+
+.form input {
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 4px 4px;
+    text-align: center;
+
+}
+
+.btn-another {
+
+    color: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 7px 9px;
+    margin: 10px 0;
+}
+
+.line {
+    width: 28px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 5px;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+
+@media only screen and (max-width: 981px) {
+    .navul {
+        flex-direction: column;
+    }
+
+    .logo img {
+        margin: 8px 0;
+
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    #search {
+        width: 100%;
+        padding: 5px 0px;
+    }
+
+    .rightpannel {
+        text-align: center;
+        width: 35%;
+
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 70px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+
+    .secondhalf img {
+        width: 70%;
+        height: 80%;
+    }
+
+    .boxmain {
+        flex-direction: column-reverse;
+       
+        height: 75%;
+    }
+
+    .section {
+
+        flex-direction: column-reverse;
+    }
+
+    .secleft {
+        flex-direction: column;
+    }
+
+    .sectionlast {
+        flex-direction: column-reverse;
+    }
+
+    .paras {
+        padding: 10px 10px;
+    }
+
+    .textbig{
+            text-align: center;
+        }
+        .textsmall{
+            text-align: center;
+            padding: 0 10px;
+        }
+        .buttons{
+            text-align: center;
+        }
+        .form{
+            
+            text-align: center;
+        }.form input{
+            width: 75%;
+            margin: 15px 31px;
+        }
+
+}
